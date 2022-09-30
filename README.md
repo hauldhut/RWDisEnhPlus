@@ -15,10 +15,10 @@ Results: In this study, we assumed that similar enhancers could be associated wi
 * QueryFromGWASCatalog_ByEnhancer.R: Collect enhancer-phenotype associations from GWASCatalog using PhenoScanner for all enhancers in DiseaseEnhancer database
 ### KFold
 * RWDisEnh_kfold.R: Performs 3-fold cross-validation for the heterogeneous and multiplex-heterogeneous networks  
-* * Change Method to RWDisEnh or RWDisEnhPlus for RWDisEnh or RWDisEnh+, respectively
+  * Change Method to RWDisEnh or RWDisEnhPlus for RWDisEnh or RWDisEnh+, respectively
 ### Prediction
 * RWDisEnh_predict.R: Predicts, selects top k-ranked enhancers, collects and summarizes evidence for the top-k ranked enhancers for the heterogeneous and multiplex-heterogeneous networks
-* * Change Method to RWDisEnh or RWDisEnhPlus for RWDisEnh or RWDisEnh+, respectively
+  * Change Method to RWDisEnh or RWDisEnhPlus for RWDisEnh or RWDisEnh+, respectively
 
 
 
