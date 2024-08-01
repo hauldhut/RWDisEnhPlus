@@ -15,6 +15,9 @@ In this study, we extended our hypothesis, proposing that similar enhancers coul
 * **AllEnhancers.zip**: The file contains enhancer-phenotype associations collected from GWASCatalog using PhenoScanner for all enhancers in DiseaseEnhancer database 
 
 ## Code
+### Prepare
+* **Install R packages**: *phenoscanner,*
+
 ### Data Preprocessing
 * **QueryFromGWASCatalog_ByEnhancer.R**: Collect enhancer-phenotype associations from GWASCatalog using PhenoScanner for all enhancers in DiseaseEnhancer database
 ### KFold
