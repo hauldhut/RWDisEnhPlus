@@ -6,21 +6,21 @@ In this study, we extended our hypothesis, proposing that similar enhancers coul
 ![Construction of networks of diseases and enhancers](https://github.com/hauldhut/RWDisEnh/blob/main/Figure1.png)
 
 ## Data
-* Disease2Enhancers.txt: All disease-enhancer associations collected from DiseaseEnhancer database, in which disease names were mapped to DO (Disease Ontology) ID
-* EDRelation.csv: All binary disease-enhancer association collected from DiseaseEnhancer database
-* DOBasedOMIMEntitySimilarityNet.txt: DO-based disease similarity network.
-* EnhNet_SharedGene.txt: Shared gene-based enhancer network
-* EnhNet_Sequence_All.txt: Sequence-based enhancer similarity network
-* AllEnhancers.zip: The folder contains enhancer-phenotype associations collected from GWASCatalog using PhenoScanner for all enhancers in DiseaseEnhancer database 
+* **Disease2Enhancers.txt**: All disease-enhancer associations collected from DiseaseEnhancer database, in which disease names were mapped to DO (Disease Ontology) ID
+* **EDRelation.csv**: All binary disease-enhancer association collected from DiseaseEnhancer database
+* **DOBasedOMIMEntitySimilarityNet.txt**: DO-based disease similarity network.
+* **EnhNet_SharedGene.txt**: Shared gene-based enhancer network
+* **EnhNet_Sequence_All.txt**: Sequence-based enhancer similarity network
+* **AllEnhancers.zip**: The file contains enhancer-phenotype associations collected from GWASCatalog using PhenoScanner for all enhancers in DiseaseEnhancer database 
 
 ## Code
 ### Data Preprocessing
-* QueryFromGWASCatalog_ByEnhancer.R: Collect enhancer-phenotype associations from GWASCatalog using PhenoScanner for all enhancers in DiseaseEnhancer database
+* **QueryFromGWASCatalog_ByEnhancer.R**: Collect enhancer-phenotype associations from GWASCatalog using PhenoScanner for all enhancers in DiseaseEnhancer database
 ### KFold
-* RWDisEnh_kfold.R: Performs 3-fold cross-validation for the heterogeneous and multiplex-heterogeneous networks  
+* **RWDisEnh_kfold.R**: Performs 3-fold cross-validation for the heterogeneous and multiplex-heterogeneous networks  
   * Change Method to RWDisEnh or RWDisEnhPlus for RWDisEnh or RWDisEnh+, respectively
 ### Prediction
-* RWDisEnh_predict.R: Predicts, selects top k-ranked enhancers, collects and summarizes evidence for the top-k ranked enhancers for the heterogeneous and multiplex-heterogeneous networks
+* **RWDisEnh_predict.R**: Predicts, selects top k-ranked enhancers, collects and summarizes evidence for the top-k ranked enhancers for the heterogeneous and multiplex-heterogeneous networks
   * Change Method to RWDisEnh or RWDisEnhPlus for RWDisEnh or RWDisEnh+, respectively
 
 
