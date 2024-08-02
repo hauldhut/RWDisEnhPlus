@@ -12,6 +12,7 @@ In this study, we extended our hypothesis, proposing that similar enhancers coul
 * **DOBasedOMIMEntitySimilarityNet.txt**: DO-based disease similarity network.
 * **EnhNet_SharedGene.txt**: Shared gene-based enhancer network
 * **EnhNet_Sequence_All.txt**: Sequence-based enhancer similarity network
+* **Trait_2_DOID.txt**: A mapping between disease (trait) to Disease Ontology identifier (DOID), used to collect evidence for top ranked enhancers for each disease
 * **AllEnhancers.zip**: The file contains enhancer-phenotype associations collected from GWASCatalog using PhenoScanner for all enhancers in DiseaseEnhancer database 
 
 ## Code
