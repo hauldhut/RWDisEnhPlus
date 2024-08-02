@@ -1,0 +1,65 @@
+alcohol dependence	alcohol dependence	DOID:1574
+amyotrophic lateral sclerosis	amyotrophic lateral sclerosis	DOID:332
+ankylosing spondylitis	ankylosing spondylitis	DOID:7147
+asthma	asthma	DOID:2841
+atrial fibrillation	atrial fibrillation	DOID:0060224
+attention deficit hyperactivity disorder	attention deficit hyperactivity disorder	DOID:1094
+autism spectrum disorder	autism spectrum disorder	DOID:0060041
+bipolar disorder	bipolar disorder	DOID:3312
+breast cancer	breast cancer	DOID:1612, DOID:3459
+bronchiectasis	bronchiectasis	DOID:9563
+celiac disease	celiac disease	DOID:10608
+cervical cancer	cervical cancer	DOID:4362
+childhood obesity	childhood obesity	DOID:9970
+chronic kidney disease	chronic kidney disease	DOID:784
+colorectal cancer	colorectal cancer	DOID:5672, DOID:9256
+coronary artery disease	coronary artery disease	DOID:3393
+depressive symptoms	depressive symptoms	DOID:1596
+doctor diagnosed asthma	doctor diagnosed asthma	DOID:2841
+duodenal ulcer	duodenal ulcer	DOID:1724
+epilepsy	epilepsy	DOID:1826
+epithelial ovarian cancer	epithelial ovarian cancer	DOID:2394
+essential hypertension	essential hypertension	DOID:10825
+ever depressed for a whole week	ever depressed for a whole week	DOID:1596
+glaucoma	glaucoma	DOID:1686
+gout	gout	DOID:13189
+high grade serous ovarian cancer	high grade serous ovarian cancer	DOID:2394
+hip or knee osteoarthritis	hip or knee osteoarthritis	DOID:8398
+hypertension	hypertension	DOID:10763
+iga deficiency	iga deficiency	DOID:0060025, DOID:11701
+inflammatory bowel disease	inflammatory bowel disease	DOID:0050589
+invasive ovarian cancer	invasive ovarian cancer	DOID:2394
+irritable bowel syndrome	irritable bowel syndrome	DOID:9778
+ischemic stroke	ischemic stroke	DOID:2316
+longest period of depression	longest period of depression	DOID:1596
+low grade and borderline serous ovarian cancer	low grade and borderline serous ovarian cancer	DOID:2394
+low grade serous ovarian cancer	low grade serous ovarian cancer	DOID:2394
+migraine	migraine	DOID:6364
+mood swings	mood swings	DOID:3324
+mucinous ovarian cancer	mucinous ovarian cancer	DOID:2394
+multiple sclerosis	multiple sclerosis	DOID:2377
+myocardial infarction	myocardial infarction	DOID:5844
+obesity class 1	obesity class 1	DOID:9970
+obesity class 2	obesity class 2	DOID:9970
+obesity class 3	obesity class 3	DOID:9970
+osteoarthritis	osteoarthritis	DOID:8398
+osteomyelitis	osteomyelitis	DOID:1019
+overweight	overweight	DOID:9970
+peritonitis	peritonitis	DOID:8283
+pneumonia	pneumonia	DOID:552
+pneumothorax	pneumothorax	DOID:1673
+primary biliary cholangitis	primary biliary cholangitis	DOID:12236
+primary biliary cirrhosis	primary biliary cirrhosis	DOID:12236
+primary sclerosing cholangitis	primary sclerosing cholangitis	DOID:0060643, DOID:14268
+psoriasis	psoriasis	DOID:4398, DOID:8893
+reported occurrences of cancer	reported occurrences of cancer	DOID:162
+rheumatoid arthritis	rheumatoid arthritis	DOID:7148
+sarcoidosis	sarcoidosis	DOID:11335
+schizophrenia	schizophrenia	DOID:5419
+serous boarderline ovarian cancer	serous boarderline ovarian cancer	DOID:2394
+serous invasive ovarian cancer	serous invasive ovarian cancer	DOID:2394
+stroke	stroke	DOID:6713
+systemic lupus erythematosus	systemic lupus erythematosus	DOID:9074
+type 2 diabetes	type 2 diabetes	DOID:9352
+ulcerative colitis	ulcerative colitis	DOID:8577
+vitiligo	vitiligo	DOID:12306
