@@ -38,6 +38,6 @@ In this study, we extended our hypothesis, proposing that similar enhancers coul
 
 
 ## Results
-* Contains all outputs/results of k-fold validation/prediction
+* Contains all outputs/results of k-fold cross-validation/prediction
 
 
