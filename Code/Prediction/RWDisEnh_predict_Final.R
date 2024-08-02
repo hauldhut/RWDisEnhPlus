@@ -120,7 +120,7 @@ for(k in seq(10, 100, by = 10)){
     df.topKEnh[nrow(df.topKEnh)+1,] = c(as.character(did),as.character(DOID2TraitMap[[did]]),as.vector(tf$NodeNames[1:k]))
   }
   
-  write.table(df.topKEnh, paste0("../../Results_Final/",Method,"_predict_top",k,".txt"), na ="", row.names=FALSE, col.names = FALSE, sep='\t', quote=FALSE)
+  write.table(df.topKEnh, paste0("../../Results/",Method,"_predict_top",k,".txt"), na ="", row.names=FALSE, col.names = FALSE, sep='\t', quote=FALSE)
   
   #Extract Enh2DONameMap, Enh2DOIDMap
   Enh2DONameMap = hash()
@@ -148,7 +148,7 @@ for(k in seq(10, 100, by = 10)){
   }
   
   #Extract GWASTrait2DOIDMap
-  GWASTrait2DOIDMapFile = "../../Data/TraitSet.txt_2_DOID.txt"
+  GWASTrait2DOIDMapFile = "../../Data/TraitSet_2_DOID.txt"
   GWASTrait2DOID = read.delim(GWASTrait2DOIDMapFile, sep = "\t", header = FALSE)
   
   GWASTrait2DOIDMap = hash()
@@ -220,7 +220,7 @@ for(k in seq(10, 100, by = 10)){
   cat("TotalEvidencedNewAssoc:", TotalEvidencedNewAssoc,"\n")
   cat("EvidenceDOIDSet: ", length(EvidenceDOIDSet),"\t",paste(EvidenceDOIDSet,collape=" "),"\n")
   
-  write.csv(df.topKEnhEvidence, paste0("../../Results_Final/",Method,"_predict_top",k,"_Evidence.csv"), na ="", row.names=FALSE, quote=FALSE)
+  write.csv(df.topKEnhEvidence, paste0("../../Results/",Method,"_predict_top",k,"_Evidence.csv"), na ="", row.names=FALSE, quote=FALSE)
   
   h.K2TotalEvidencedNewAssoc[[as.character(k)]] = TotalEvidencedNewAssoc
   h.K2topKEnhEvidence[[as.character(k)]] = df.topKEnhEvidence
@@ -260,5 +260,5 @@ for(k in seq(10, 100, by = 10)){
   }
   df.topKEnhEvidenceSum
   
-  write.table(df.topKEnhEvidenceSum, paste0("../../Results_Final/",Method,"_predict_top",k,"_EvidenceSum.txt"), na ="", row.names=FALSE, quote=FALSE, sep="\t")
+  write.table(df.topKEnhEvidenceSum, paste0("../../Results/",Method,"_predict_top",k,"_EvidenceSum.txt"), na ="", row.names=FALSE, quote=FALSE, sep="\t")
 }
