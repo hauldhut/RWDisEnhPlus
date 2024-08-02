@@ -8,11 +8,11 @@ In this study, we extended our hypothesis, proposing that similar enhancers coul
 
 ## Data
 * **Disease2Enhancers.txt**:
- - All disease-enhancer associations collected from DiseaseEnhancer database, in which disease names were mapped to DO (Disease Ontology) ID
+  - All disease-enhancer associations collected from DiseaseEnhancer database, in which disease names were mapped to DO (Disease Ontology) ID
 * **EDRelation.csv**:
- - All binary disease-enhancer association collected from DiseaseEnhancer database
+  - All binary disease-enhancer association collected from DiseaseEnhancer database
 * **DOBasedOMIMEntitySimilarityNet.txt**:
- - DO-based disease similarity network.
+  - DO-based disease similarity network.
 * **EnhNet_SharedGene.txt**:
   - Shared gene-based enhancer network
 * **EnhNet_Sequence_All.txt**:
