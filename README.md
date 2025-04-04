@@ -1,32 +1,21 @@
 # RWDisEnh+
-Enhancers regulate the transcription of target genes, influencing their expression levels. Consequently, aberrant enhancer activity can lead to diseases. To date, millions of enhancers have been identified, yet only a small fraction of them have been linked to diseases. This underscores the pressing need to develop computational methods to predict associations between diseases and enhancers. In a previous study, we hypothesized that enhancers sharing target genes could be associated with similar diseases; we thus proposed a network-based method utilizing a heterogeneous network that connected a shared gene-based enhancer network and a disease similarity network to predict novel disease-associated enhancers. 
+Enhancers are critical regulatory elements that, when disrupted, contribute to disease pathogenesis by altering gene expression. Despite the identification of millions of enhancers, their disease associations remain largely unexplored, necessitating advanced computational methods. In our previous work, we developed RWDisEnh, a network-driven approach that integrates a shared gene-derived enhancer network with a disease similarity network within a heterogeneous framework to predict disease-enhancer associations. 
 
-In this study, we extended our hypothesis, proposing that similar enhancers could be associated with similar diseases to improve prediction accuracy. We additionally built a sequence-based enhancer similarity network and integrated it with the existing heterogeneous network to form a multiplex-heterogeneous network of diseases and enhancers. Furthermore, our random walk with restart scheme on the heterogeneous network (RWDisEnh) was extended to operate on the multiplex-heterogeneous network (RWDisEnh+) to measure the degree of association. Experimental results show that RWDisEnh+ outperforms RWDisEnh in terms of AUC values obtained by 3-fold cross-validation; as well as the number of top-ranked enhancers supported by direct evidence. Our findings demonstrate that RWDisEnh+ can predict novel enhancers associated with specific diseases.
+In this study, we introduce RWDisEnh+, an improved method that enhances prediction accuracy by incorporating a sequence-based enhancer similarity network into a multiplex-heterogeneous framework. Using an extended random walk with restart (RWR) algorithm, RWDisEnh+ leverages the multiplex-heterogeneous network to rank candidate enhancers based on their association with diseases of interest. Experimental results from 3-fold cross-validation demonstrate that RWDisEnh+ achieves an AUC of 0.874, outperforming RWDisEnh’s AUC of 0.819. Furthermore, RWDisEnh+ identifies more evidence-supported enhancers across top-k rankings (k = 10 to 100), successfully predicting novel associations between 10 enhancers and seven diseases, including asthma, rheumatoid arthritis, and type 2 diabetes. Pathway enrichment analysis reveals that these associations are linked to immune, inflammatory, and metabolic pathways, underscoring their biological relevance. These findings highlight RWDisEnh+’s potential to uncover novel disease-enhancer relationships, advancing our understanding of complex disease mechanisms.
 
 ## Construction of networks of diseases and enhancers
 ![Construction of networks of diseases and enhancers](https://github.com/hauldhut/RWDisEnh/blob/main/Figure1.png)
 
-## Data
-* **Disease2Enhancers.txt**:
-  - All disease-enhancer associations collected from DiseaseEnhancer database, in which disease names were mapped to DO (Disease Ontology) ID
-* **EDRelation.csv**:
-  - All binary disease-enhancer association collected from DiseaseEnhancer database
-* **DOBasedOMIMEntitySimilarityNet.txt**:
-  - DO-based disease similarity network.
-* **EnhNet_SharedGene.txt**:
-  - Shared gene-based enhancer network
-* **EnhNet_Sequence_All.txt**:
-  - Sequence-based enhancer similarity network
-* **Trait_2_DOID.txt**:
-  - A mapping between disease (trait) to Disease Ontology identifier (DOID), used to collect evidence for top ranked enhancers for each disease
-* **AllEnhancers.zip**:
-  - The file contains enhancer-phenotype associations collected from GWASCatalog using PhenoScanner for all enhancers in DiseaseEnhancer database 
+## Repo structure
+- **Data**: Contains all data 
+- **Code**: Contains all source code to reproduce all the results
+- **Results**: Contains all outputs/results of k-fold cross-validation and prediction
 
-## Code
-* Prepare
-  - **Install R packages**: *RandomWalkRestartMH, igraph, foreach, doParallel, ROCR, Metrics, hash, phenoscanner, clusterProfiler, org.Hs.eg.db*
+## How to run
+- Install R packages
+  - *RandomWalkRestartMH, igraph, foreach, doParallel, ROCR, Metrics, hash, phenoscanner, clusterProfiler, org.Hs.eg.db*
+- Download the repo
+- Follow instructions in the folder **Code** to run
 
-## Results
-* Contains all outputs/results of k-fold cross-validation and prediction
 
 
