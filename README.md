@@ -13,7 +13,7 @@ In this study, we introduce RWDisEnh+, an improved method that enhances predicti
 
 ## How to run
 - Install R packages
-  - *RandomWalkRestartMH, igraph, foreach, doParallel, ROCR, Metrics, hash, phenoscanner, clusterProfiler, org.Hs.eg.db*
+  - *RandomWalkRestartMH, igraph, foreach, doParallel, ROCR, Metrics, hash, phenoscanner, biomaRt, clusterProfiler, org.Hs.eg.db*
 - Download the repo
 - Follow instructions in the folder **Code** to run
 
