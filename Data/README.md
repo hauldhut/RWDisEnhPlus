@@ -1,4 +1,4 @@
-## Data
+# Data
 * **Disease2Enhancers.txt**:
   - All disease-enhancer associations collected from DiseaseEnhancer database, in which disease names were mapped to DO (Disease Ontology) ID
 * **EDRelation.csv**:
