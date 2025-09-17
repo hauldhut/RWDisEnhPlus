@@ -1,6 +1,6 @@
 # Code
 * Data Preprocessing
-  - **QueryFromGWASCatalog_ByEnhancer.R**: Collect enhancer-phenotype associations from GWASCatalog using PhenoScanner for all enhancers in DiseaseEnhancer database
+  - **QueryFromPhenoScanner_ByEnhancer.R**: Collect enhancer-phenotype associations from PhenoScanner using its R package for all enhancers in DiseaseEnhancer database
     
 * KFold cross-validation
   - **RWDisEnhPlus_kfold_Final.R**: Performs 3-fold cross-validation for the heterogeneous and multiplex-heterogeneous networks  
