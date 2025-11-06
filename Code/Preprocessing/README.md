@@ -1,1 +1,2 @@
-
+  - **QueryFromPhenoScanner_ByEnhancer.R**: Collect enhancer-phenotype associations from PhenoScanner using its R package for all enhancers in DiseaseEnhancer database
+  - **QueryGeneInvolvingEnhancer.R**: Collect genes involving enhancers for all enhancers in DiseaseEnhancer database
