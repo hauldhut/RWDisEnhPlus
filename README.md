@@ -15,7 +15,7 @@ Comprehensive evaluations using 3-fold cross-validation demonstrate that RWDisEn
 
 ## How to run
 - Install R packages
-  - *RandomWalkRestartMH, igraph, foreach, doParallel, ROCR, Metrics, hash, phenoscanner, biomaRt, clusterProfiler, org.Hs.eg.db*
+  - *RandomWalkRestartMH, igraph, foreach, doParallel, ROCR, Metrics, hash, phenoscanner, clusterProfiler, org.Hs.eg.db, LDlinkR, TxDb.Hsapiens.UCSC.hg38.knownGene*
 - Download the repo
 - Follow instructions in the folder **Code** to run
 
