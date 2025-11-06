@@ -1,6 +1,7 @@
 # Code
 * Data Preprocessing
   - **QueryFromPhenoScanner_ByEnhancer.R**: Collect enhancer-phenotype associations from PhenoScanner using its R package for all enhancers in DiseaseEnhancer database
+  - **QueryGeneInvolvingEnhancer.R**: Collect genes involving enhancers for all enhancers in DiseaseEnhancer database
     
 * KFold cross-validation
   - **RWDisEnhPlus_kfold_Final.R**: Performs 3-fold cross-validation for the heterogeneous and multiplex-heterogeneous networks  
@@ -12,5 +13,6 @@
       
 * Analysis
   - **RWDisEnhPlus_Summarize_topkEvidence.R**: Summarize the number of evidence found for top-ranked enhancers.
-  - **RWDisEnhPlus_Enrich_Pathways_Final.R**: Perform KEGG Pathway Enrichment Analysis for involved SNPs
-
+  - **RWDisEnhPlus_Enrich_Pathways_ForUnEvidenced.R**: Perform KEGG Pathway Enrichment Analysis for GWAS-UnEvidenced SNPs
+  - **LDCalculation_groupbyDisEnhAssoc.R**: Calculate pairwise LDs for all GWAS-evidenced SNPs
+  - **FindEvidence_byOverlappingWithOtherDatabases.R**: Find evidence by overlapping predicted results with other Disease-Enhancer databases
